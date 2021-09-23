@@ -85,6 +85,8 @@ let postupdate = c => {
 
     component.justDown = false;
     component.justUp = false;
+    component.lastX = component.x;
+    component.lastY = component.y;
 
     if (wasPointing && !component.pointing) {
         canvas.style.cursor = 'default';

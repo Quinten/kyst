@@ -4,55 +4,38 @@
   },
   "game": {
     "state": {
-      "entities": ["viewport", "input"]
+      "entities": ["viewport", "input", "camera"]
     }
   },
   "viewport": {
     "resize": {
       "width": 300,
       "height": 150,
-      "minWidth": 256,
-      "minHeight": 256
+      "minWidth": 288,
+      "minHeight": 288
     }
   },
   "input": {
     "pointer": {}
   },
+  "camera": {
+    "dragcamera": {
+      "x": 0,
+      "y": 0
+    }
+  },
   "player": {
     "fillrect": {
       "fill": "white",
-      "x": 8,
-      "y": 8,
-      "width": 240,
-      "height": 240
-    },
-    "sound": {
-      "melody": ["2C3", "2D3", "4G3"]
-    },
-    "data": {
-      "nClicks": 0
-    }
-  },
-  "enemy": {
-    "fillrectx": {
-      "fill": "white",
-      "x": 8,
-      "y": 8,
-      "width": 240,
-      "height": 240
-    },
-    "sound": {
-      "melody": ["2G3", "2D3", "4C3"]
+      "x": 0,
+      "y": 0,
+      "width": 48,
+      "height": 48
     }
   },
   "test": {
     "state": {
       "entities": ["player"]
-    }
-  },
-  "testx": {
-    "state": {
-      "entities": ["enemy"]
     }
   }
 }
