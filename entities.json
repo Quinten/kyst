@@ -11,8 +11,8 @@
     "resize": {
       "width": 300,
       "height": 150,
-      "minWidth": 288,
-      "minHeight": 288
+      "minWidth": 144,
+      "minHeight": 144
     }
   },
   "input": {
@@ -26,11 +26,11 @@
   },
   "player": {
     "fillrect": {
-      "fill": "white",
+      "fill": "#B5AE91",
       "x": 0,
       "y": 0,
-      "width": 48,
-      "height": 48
+      "width": 24,
+      "height": 24
     }
   },
   "test": {

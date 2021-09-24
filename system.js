@@ -3,9 +3,9 @@ let addIcons = _ => {
     c.width = 1024;
     c.height = 1024;
     let ctx = c.getContext('2d');
-    ctx.fillStyle = 'white';
+    ctx.fillStyle = '#54769B';
     ctx.fillRect(0, 0, 1024, 1024);
-    ctx.fillStyle = 'black';
+    ctx.fillStyle = '#B5AE91';
     ctx.fillRect(256, 256, 512, 512);
     let icon = c.toDataURL();
     let favi = document.createElement('link');
