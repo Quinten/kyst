@@ -27,7 +27,11 @@
   },
   "islands": {
     "landclicks": {},
-    "data": {}
+    "data": {},
+    "sound": {
+      "melody": ["32F3"],
+      "bpm": 138
+    }
   },
   "test": {
     "state": {

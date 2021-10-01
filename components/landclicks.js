@@ -17,6 +17,8 @@ let update = c => {
         } else {
             data[posKey] = 1;
         }
+        let {sound} = c.entity;
+        sound.play = true;
     }
 };
 

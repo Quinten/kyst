@@ -65,7 +65,7 @@ let playNote = (node, note, start, bpm = 120, shape = 'triangle') => {
     let octave = note.match(/\d+$/g);
     octave = (octave) ? +octave[0] : 4;
 
-    let length = 15 / bpm * noteRate;
+    let length = 1 / noteRate * 240 / bpm;
 
     let noteIndex = notes.indexOf(noteName);
     if (noteIndex === -1) {
@@ -104,7 +104,7 @@ let preupdate = c => {
 
     let {
         melody,
-        bpm = 138,
+        bpm = 120,
         loop = false,
         nextNote = 0,
         nextNoteTick = ctx.currentTime,
