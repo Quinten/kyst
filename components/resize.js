@@ -24,6 +24,7 @@ let preupdate = c => {
     } else {
         zoom = canvas.width / component.minWidth;
     }
+    zoom = Math.floor(zoom);
     component.zoom = zoom;
 };
 
