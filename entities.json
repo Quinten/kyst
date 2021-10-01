@@ -19,23 +19,19 @@
     "pointer": {}
   },
   "camera": {
-    "dragcamera": {
+    "dragcamera": {},
+    "data": {
       "x": 0,
       "y": 0
     }
   },
-  "player": {
-    "fillrect": {
-      "fill": "#B5AE91",
-      "x": 0,
-      "y": 0,
-      "width": 24,
-      "height": 24
-    }
+  "islands": {
+    "landclicks": {},
+    "data": {}
   },
   "test": {
     "state": {
-      "entities": ["player"]
+      "entities": ["islands"]
     }
   }
 }

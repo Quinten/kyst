@@ -1,7 +1,5 @@
 # Kyst
 
-Warning: this is not a game!
-
 ## Instructions
 
 Click/tap: create islands.

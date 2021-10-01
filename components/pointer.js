@@ -34,6 +34,7 @@ let doSetup = c => {
         pointer.downY = y;
         pointer.justDown = true;
         pointer.isDown = true;
+        pointer.movedDown = false;
         mouseEntered = false;
         soundSystem.initCtx();
     });
