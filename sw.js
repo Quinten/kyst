@@ -1,9 +1,9 @@
-let PRECACHE = 'good-game-precache';
+let PRECACHE = 'kyst-precache';
 let PRECACHE_URLS = [
     './', // remove this for js13k
     'index.html',
     'entities.json',
-    'system.js'
+    'index.js'
 ];
 
 let createCacheBustedRequest = url => {
